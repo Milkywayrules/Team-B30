@@ -1,3 +1,1 @@
-halo
-hola
-hai
+Bismillahirrahmaanirrahiim
