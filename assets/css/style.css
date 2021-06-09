@@ -1,3 +1,4 @@
+/* CUMA BUAT RESET CSS */
 *,
 *::before,
 *::after {
@@ -54,7 +55,11 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-/* =================================== */
+
+
+/* SAMPE SINI RESET CSS */
+
+
 
 html {
   background-color: rgba(243, 244, 246, 1);
@@ -62,7 +67,7 @@ html {
   color: white; */
 }
 
-/* ================================================= PERSONAL PROJECT */
+/* ============================================ PERSONAL PROJECT */
 
 #personal-project {
   padding: 72px 0;
@@ -155,11 +160,10 @@ html {
   margin-top: 6px;
 }
 
+/* ============================================ // PERSONAL PROJECT */
 /* ============================================ CV */
 
 #cv {
-  background-color: gray;
-
   padding: 72px 0;
   margin: auto;
 }
@@ -167,36 +171,63 @@ html {
 #cv .container {
   margin: 12px auto;
   max-width: 900px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#cv .container h1 {
-  margin-bottom: 24px;
-  text-align: center;
-  font-size: 32px;
+#cv .container .cv-desc {
+  margin: auto;
+}
+
+#cv .container h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #121212;
+}
+
+#cv .container p {
+  margin-top: 2px;
+  font-size: 24px;
+  letter-spacing: 1.7px;
+  text-transform: capitalize;
+  color: #1d1d1d;
 }
 
 #cv .container a {
-  margin-bottom: 24px;
-  text-align: center;
-  font-size: 16px;
+  margin: auto;
+  padding: 12px 36px;
+  background-color: rgb(79, 70, 229);
+
+  border-top: 5px rgb(165, 180, 252) solid;
+  border-right: 5px rgb(99, 102, 241) solid;
+  
+  border-bottom: 5px rgb(55, 48, 163) solid;
+  border-left: 5px rgb(99, 102, 241) solid;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(238, 242, 255);
+}
+
+#cv .container a:hover {
+  background-color: rgb(99, 102, 241);
+
+  border-top: 5px rgb(165, 180, 252) solid;
+  border-right: 5px rgb(99, 102, 241) solid;
+  
+  border-bottom: 5px rgb(55, 48, 163) solid;
+  border-left: 5px rgb(99, 102, 241) solid;
+
+  transition: all .2s;
 }
 
 #cv .container a .right-arrow {
-  font-size: 24px;
+  font-size: 28px;
+  margin: 0 0 0 10px;
 }
 
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.heading {
-  text-align: center;
-  padding-top: 40px;
-  /* padding-bottom: 15px; */
-  font-size: 20px;
-}
+/* ============================================ // CV */
 
 /* About Us */
 .about {
