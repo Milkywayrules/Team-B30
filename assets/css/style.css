@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* =================================== */
+
+html {
+  background-color: rgba(243, 244, 246, 1);
+  /* background-color: #121212;
+  color: white; */
+}
+
+
+
+
+/* ================================================= PERSONAL PROJECT */
+
+
+
+
+#personal-project {
+  padding: 72px 0;
+  margin: auto;
+}
+
+#personal-project .container {
+  margin: 12px auto;
+  max-width: 900px;
+}
+
+#personal-project .container h1 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 32px;
+}
+
+#personal-project .container .cards {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  #personal-project .container .cards {
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+  }
+}
+
+#personal-project .container .cards .card {
+  margin: 16px;
+  flex-flow: row wrap;
+  border: 1px black solid;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  box-shadow: 10px 10px rgba(106, 133, 255, 0.603);
+  background-color: rgba(249, 250, 251, 1);
+}
+
+@media (max-width: 1024px) {
+  #personal-project .container .cards {
+    max-width: 400px;
+  }
+}
+
+#personal-project .container .cards .card:hover {
+  border: 1px rgba(106, 133, 255, 1) solid;
+  /* border-radius: 10px; */
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.603);
+  /* box-shadow: 0 0; */
+  transition: all .3s;
+}
+
+#personal-project .container .cards .card .img-container {
+  overflow: hidden;
+}
+
+#personal-project .container .cards .card .img-container .card-img {
+  width: 100%;
+}
+
+#personal-project .container .cards .card .img-container .card-img:hover {
+  transform: scale(1.05);
+  transition: all .3s;
+}
+
+#personal-project .container .cards .card .card-container {
+  padding: 16px 16px 28px 16px;
+  z-index: 10;
+}
+
+#personal-project .container .cards .card .card-container .tags {
+  padding: 6px 14px;
+  background-color: rgba(209, 250, 229, 1);
+  color: rgb(5, 150, 105);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-size: 12px;
+}
+
+#personal-project .container .cards .card .card-container .content {
+  margin-top: 24px;
+  padding: 0 4px;
+}
+
+#personal-project .container .cards .card .card-container .content p {
+  margin-top: 6px;
+}
+
+
+
+
+/* ============================================ CV */
+
+
+
+
+#cv {
+  background-color: gray;
+  
+  padding: 72px 0;
+  margin: auto;
+}
+
+#cv .container {
+  margin: 12px auto;
+  max-width: 900px;
+}
+
+#cv .container h1 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 32px;
+}
+
+#cv .container a {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#cv .container a .right-arrow {
+  font-size: 24px;
+}
+
