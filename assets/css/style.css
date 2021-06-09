@@ -176,13 +176,6 @@ html {
   color: #1d1d1d;
 }
 
-/* ============================================ ABOUT */
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 #cv .container a:hover {
   background-color: rgb(99, 102, 241);
 
@@ -205,17 +198,29 @@ html {
   display: inline-block;
 }
 
-/* ============================================ // ABOUT */
-
+/* ============================================ ABOUT */
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.heading {
+  text-align: center;
+  padding-top: 40px;
+  /* padding-bottom: 15px; */
+  font-size: 20px;
+}
 /* About Us */
 .about {
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: white;
 }
-
+.heading h2 {
+  padding-bottom: 20px;
+}
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +238,7 @@ html {
 }
 
 .pict {
-  padding-top: 3%;
+  padding-top: 0;
   padding-left: 20%;
   width: 80%;
 }
@@ -251,8 +256,17 @@ html {
   color: #fff;
 }
 /* btn home */
-.bttn-wrapper {
+.bttn-wrapper-1 {
   margin: 0 40px;
+}
+.bttn-wrapper-2 {
+  margin: 0 100px;
+}
+.bttn-wrapper-3 {
+  margin: 0 25px;
+}
+.bttn-wrapper-4 {
+  margin: 0 90px;
 }
 
 .bttn {
@@ -299,6 +313,10 @@ html {
   .heading {
     font-size: 15px;
     padding-bottom: 10px;
+  }
+  .content-items p {
+    text-align: justify;
+    line-height: 25px;
   }
 }
 
