@@ -176,6 +176,22 @@ html {
   color: #1d1d1d;
 }
 
+#cv .container a {
+  margin: auto;
+  padding: 12px 36px;
+  background-color: rgb(79, 70, 229);
+
+  border-top: 5px rgb(165, 180, 252) solid;
+  border-right: 5px rgb(99, 102, 241) solid;
+  
+  border-bottom: 5px rgb(55, 48, 163) solid;
+  border-left: 5px rgb(99, 102, 241) solid;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(238, 242, 255);
+}
+
 #cv .container a:hover {
   background-color: rgb(99, 102, 241);
 
@@ -198,6 +214,7 @@ html {
   display: inline-block;
 }
 
+/* ============================================ // CV */
 /* ============================================ Banner / Carousel / Hero / Slider */
 
 #slider .centered {
@@ -262,7 +279,7 @@ html {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: white;
+  /* background-color: white; */
 }
 
 #about .heading h2 {
