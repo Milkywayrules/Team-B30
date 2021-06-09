@@ -198,78 +198,35 @@ html {
   display: inline-block;
 }
 
-/* ============================================ ABOUT */
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.heading {
-  text-align: center;
-  padding-top: 40px;
-  /* padding-bottom: 15px; */
-  font-size: 20px;
-}
-/* About Us */
-.about {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: white;
-}
-.heading h2 {
-  padding-bottom: 20px;
-}
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  padding: 0 30px;
-}
+/* ============================================ Banner / Carousel / Hero / Slider */
 
-.content-items {
-  width: 50%;
-}
-
-.content-items p {
-  text-align: justify;
-  line-height: 35px;
-}
-
-.pict {
-  padding-top: 0;
-  padding-left: 20%;
-  width: 80%;
-}
-.centered {
+#slider .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
-.banner h1 {
+#slider .banner h1 {
   margin: 20px auto;
   font-size: 50px;
   color: #fff;
 }
 /* btn home */
-.bttn-wrapper-1 {
+#slider .bttn-wrapper-1 {
   margin: 0 40px;
 }
-.bttn-wrapper-2 {
+#slider .bttn-wrapper-2 {
   margin: 0 100px;
 }
-.bttn-wrapper-3 {
+#slider .bttn-wrapper-3 {
   margin: 0 25px;
 }
-.bttn-wrapper-4 {
+#slider .bttn-wrapper-4 {
   margin: 0 90px;
 }
 
-.bttn {
+#slider .bttn {
   padding: 12px 30px;
   color: white;
   /* display: inline-block; */
@@ -279,13 +236,59 @@ html {
   font-weight: bold;
 }
 
-.explore {
+#slider .explore {
   background-color: #444;
 }
 
-.bttn:hover {
+#slider .bttn:hover {
   background-color: #000;
   opacity: 0.8;
+}
+
+/* ============================================ ABOUT */
+#about .container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+#about .heading {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+
+#about .heading h2 {
+  padding-bottom: 20px;
+}
+
+#about .content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0 30px;
+}
+
+#about .content-items {
+  width: 50%;
+}
+
+#about .content-items p {
+  text-align: justify;
+  line-height: 35px;
+}
+
+#about .pict {
+  padding-top: 0;
+  padding-left: 20%;
+  width: 80%;
 }
 
 /* ============================================ Responsive */
@@ -302,19 +305,19 @@ html {
   }
 
   /* about */
-  .content {
+  #about .content {
     justify-content: center;
   }
 
-  .content-items {
+  #about .content-items {
     width: 100%;
   }
 
-  .heading {
+  #about .heading {
     font-size: 15px;
     padding-bottom: 10px;
   }
-  .content-items p {
+  #about .content-items p {
     text-align: justify;
     line-height: 25px;
   }
@@ -322,15 +325,15 @@ html {
 
 @media (max-width: 670px) {
   /* about */
-  .content {
+  #about .content {
     justify-content: center;
   }
 
-  .content-items {
+  #about .content-items {
     width: 100%;
   }
 
-  .content-items p {
+  #about .content-items p {
     text-align: justify;
     line-height: 25px;
   }
