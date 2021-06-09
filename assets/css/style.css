@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 blockquote,
@@ -22,6 +22,7 @@ figure,
 p,
 pre {
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -61,13 +62,7 @@ html {
   color: white; */
 }
 
-
-
-
 /* ================================================= PERSONAL PROJECT */
-
-
-
 
 #personal-project {
   padding: 72px 0;
@@ -120,7 +115,7 @@ html {
   /* border-radius: 10px; */
   box-shadow: 10px 10px rgba(0, 0, 0, 0.603);
   /* box-shadow: 0 0; */
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #personal-project .container .cards .card .img-container {
@@ -133,7 +128,7 @@ html {
 
 #personal-project .container .cards .card .img-container .card-img:hover {
   transform: scale(1.05);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #personal-project .container .cards .card .card-container {
@@ -160,17 +155,11 @@ html {
   margin-top: 6px;
 }
 
-
-
-
 /* ============================================ CV */
-
-
-
 
 #cv {
   background-color: gray;
-  
+
   padding: 72px 0;
   margin: auto;
 }
@@ -196,3 +185,45 @@ html {
   font-size: 24px;
 }
 
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 40px;
+  /* padding-bottom: 15px; */
+  font-size: 20px;
+}
+
+/* About Us */
+.about {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.content-items {
+  width: 50%;
+}
+
+.content-items p {
+  text-align: justify;
+  line-height: 35px;
+}
+
+.pict {
+  padding-top: 10%;
+  padding-left: 10%;
+  width: 100%;
+}

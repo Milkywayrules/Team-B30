@@ -6,6 +6,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/carousel.css">
 </head>
 <body>
 
@@ -16,12 +17,86 @@
 
 	<!-- hero // ferri -->
 	<section>
-
+        <div class="slider">
+	
+            <input type="radio" id="i1" name="images" checked />
+            <input type="radio" id="i2" name="images" />
+            <input type="radio" id="i3" name="images" />
+            <input type="radio" id="i4" name="images" />
+            
+            <div class="slide_img" id="one">			
+                    
+                    <img src="./assets/img/carousel/1.jpg">
+                    
+                        <label class="prev" for="i4"><span>&#x2039;</span></label>
+                        <label class="next" for="i2"><span>&#x203a;</span></label>	
+                
+            </div>
+            
+            <div class="slide_img" id="two">
+                
+                    <img src="./assets/img/carousel/2.jpg" >
+                    
+                        <label class="prev" for="i1"><span>&#x2039;</span></label>
+                        <label class="next" for="i3"><span>&#x203a;</span></label>
+                
+            </div>
+                    
+            <div class="slide_img" id="three">
+                    <img src="./assets/img/carousel/3.jpg">	
+                    
+                        <label class="prev" for="i2"><span>&#x2039;</span></label>
+                        <label class="next" for="i4"><span>&#x203a;</span></label>
+            </div>
+        
+            <div class="slide_img" id="four">
+                    <img src="./assets/img/carousel/4.jpg">	
+                    
+                        <label class="prev" for="i3"><span>&#x2039;</span></label>
+                        <label class="next" for="i1"><span>&#x203a;</span></label>
+            </div>
+        
+            <div id="nav_slide">
+                <label for="i1" class="dots" id="dot1"></label>
+                <label for="i2" class="dots" id="dot2"></label>
+                <label for="i3" class="dots" id="dot3"></label>
+                <label for="i4" class="dots" id="dot4"></label>
+            </div>
+                
+        </div>
 	</section>
 
 	<!-- tentang tim // ferri -->
 	<section>
-
+        <div class="about" id="about">
+            <div class="container">
+                <div class="content">
+                    <div class="content-items">
+                        <div class="heading">
+                            <h2>About Us</h2>
+                        </div>
+                        <hr>
+                        <p>B-30 adalah sebuah kelompok dalam pelatihan yang diadakan oleh Digital Talent Scholarship
+                            2021
+                            yang bekerja
+                            sama dengan Progate. Dengan tema pelatihan "HTML, CSS & JavaScript", yang dilakukan
+                            secara
+                            online. Kelompok
+                            ini berada dalam satu kelas yang sama, yaitu kelas B. Mereka datang dari berbagai
+                            daerah,
+                            berkumpul menjadi
+                            satu untuk tujuan yang sama. Dengan harapan setelah mengikuti pelatihan ini, keahlian
+                            yang
+                            dimiliki menjadi
+                            lebih baik.
+                        </p>
+                    </div>
+                    <div class="content-items">
+                        <img class="pict" src="assets/img/us.png">
+                    </div>
+                </div>
+            </div>
+        </div>
 	</section>
 
 	<!-- foto2 tim // fariz -->
