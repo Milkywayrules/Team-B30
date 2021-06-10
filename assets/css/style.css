@@ -779,3 +779,70 @@ footer {
     font-size: 10px;
   }
 }
+
+/* CSS fariz*/
+.contents {
+  height: 500px;
+  display: flex;
+  flex-flow: column;
+}
+
+#our-team {
+  padding: 72px 0;
+  margin: 0 72px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+#our-team .contents-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px auto;
+}
+
+#our-team .contents-item {
+  width: 200px;
+}
+
+#our-team .contents-item h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#our-team .contents-item p {
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#our-team .responsive {
+  width: 100%;
+  height: 200px;
+  border-radius: 100%;
+}
+
+#contact-form {
+  padding: 72px 0;
+  margin: 0 72px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+#contact-form-submit {
+  background: #dee7ec;
+  color: #889eab;
+}
