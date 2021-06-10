@@ -308,28 +308,12 @@ html {
 }
 
 /*Hafid*/
-a {
-  text-decoration: none;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-
 /* Header */
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: 'Lato', sans-serif;
-}
 .wrapper{
     width: 1170px;
     margin: auto;
 }
-header{
+#hafid-header{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../img/bg.png');
     height: 80vh;
     -webkit-background-size: cover;
@@ -337,15 +321,15 @@ header{
     background-position: center center;
     position: relative;
 }
-.nav-area{
+.hafid-nav-area{
     float: right;
     list-style: none;
     margin-top: 30px;
 }
-.nav-area li{
+.hafid-nav-area li{
     display: inline-block;
 }
-.nav-area li a {
+.hafid-nav-area li a {
 color: #fff;
 text-decoration: none;
 padding: 5px 20px;
@@ -353,33 +337,33 @@ font-family: monospace;
 font-size: 16px;
 text-transform: uppercase;
 }
-.nav-area li a:hover{
+.hafid-nav-area li a:hover{
     background: #fff;
     color: #333;
 }
-.logo{
+.hafid-logo{
     float: left;
 }
-.logo img{
+.hafid-logo img{
     width: 100%;
     height: auto;
     padding: -20px 0;
 }
 
-.welcome-text{
+.hafid-welcome-text{
     position: absolute;
     width: 600px;
     height: 300px;
     margin: 20% 30%;
     text-align: center;
 }
-.welcome-text h1{
+.hafid-welcome-text h1{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     font-size: 60px;
 }
-.welcome-text a{
+.hafid-welcome-text a{
     border: 1px solid #fff;
     padding: 10px 25px;
     text-decoration: none;
@@ -389,22 +373,22 @@ text-transform: uppercase;
     display: inline-block;
     color: #fff;
 }
-.welcome-text a:hover{
+.hafid-welcome-text a:hover{
     background: #fff;
     color: #333;
 }
 
 
 /* About */
-.about-section {
+.hafid-about-section {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
   }
-.about-section h1 {
+.hafid-about-section h1 {
     color: white;
 }
-.about-section img {
+.hafid-about-section img {
   border-radius: 50%;
   width: 200px;
   height: auto;
@@ -412,7 +396,7 @@ text-transform: uppercase;
 
 
 /* Type-Writer */
-      #main {
+      #hafid-main {
         height: 40px;
         white-space: nowrap;
         overflow: hidden;
@@ -422,7 +406,7 @@ text-transform: uppercase;
         position: relative;
         margin: 0 auto;
       }
-      #border {
+      #hafid-border {
         border-bottom: solid 3px rgba(0, 255, 0, .75);
         position: absolute;
         right: -7px;
@@ -437,7 +421,7 @@ text-transform: uppercase;
       }
       .text-1,
       .text-2,
-      #border {
+      #hafid-border {
         overflow: hidden;
         white-space: nowrap;
         display: inline-block;
@@ -448,7 +432,7 @@ text-transform: uppercase;
       }
       .text-1::after,
       .text-2::after,
-      #border::after {
+      #hafid-border::after {
         position: absolute;
         right: 0;
         animation: animated-cursor 1s steps(30, end) infinite;
@@ -519,38 +503,38 @@ text-transform: uppercase;
     text-align: justify;
     line-height: 25px;
   }
-  .wrapper {
+.hafid-wrapper {
 width: 100%;
 }
-.logo {
+.hafid-logo {
 float: none;
 width: 50%;
 text-align: center;
 margin: auto;
 }
-.nav-area {
+.hafid-nav-area {
 float: none;
 margin-top: 0;
 }
-.nav-area li a {
+.hafid-nav-area li a {
 float: none;
 display: block;  
 padding: 5px;
 font-size: 18px;
 margin: auto;
 }
-.nav-area {
+.hafid-nav-area {
 text-align: center;
 }
-.welcome-text {
+.hafid-welcome-text {
 width: 100%;
 height: auto;
 margin: 30% 0;
 }
-.welcome-text h1 {
+.hafid-welcome-text h1 {
 font-size: 27px;
 }
-#main{
+#hafid-main{
     width: 100%;
     height: auto;
     font-size: 28px;
@@ -571,7 +555,7 @@ font-size: 27px;
     text-align: justify;
     line-height: 25px;
   }
-  #main{
+  #hafid-main{
     width: 100%;
     height: auto;
     font-size: 14px;
