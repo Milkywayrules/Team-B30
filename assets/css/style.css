@@ -665,6 +665,118 @@ footer {
 }
 
 /* ============================================ // FOOTER */
+/* ============================================ OUR TEAM */
+
+/* CSS fariz*/
+.contents {
+  /* height: 500px; */
+  /* display: flex;
+  flex-flow: column; */
+}
+
+#our-team {
+  padding: 72px 0;
+  margin: 0 72px;
+}
+
+.section-title {
+  width: 225px;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#our-team .contents-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 12px auto;
+}
+
+#our-team .contents-item {
+  width: 200px;
+  margin: 30px 10px;
+}
+
+#our-team .contents-item:hover {
+  filter: drop-shadow(0 0 0.75rem #4F46E5);
+  transition: all .5s;
+}
+
+#our-team .contents-item .img-container {
+  width: 150px;
+  margin: 0 auto;
+}
+
+#our-team .contents-item h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#our-team .contents-item p {
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#our-team .responsive {
+  width: 100%;
+  height: 150px;
+  border-radius: 100%;
+}
+
+/* ============================================ // OUR TEAM */
+/* ============================================ CONTACT FORM */
+
+#contact-form {
+  padding: 72px 0;
+  margin: 0 72px;
+}
+
+#contact-form .contact-container {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#contact-form .contact-container label {
+  display: block;
+}
+
+#contact-form .contact-container input,
+#contact-form .contact-container textarea {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-form-submit {
+  background-color: rgb(79, 70, 229);
+  color: rgb(238, 242, 255);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-form-submit:hover {
+  background-color: rgb(99, 102, 241);
+  transition: all 0.2s;
+}
+
+.contact-form-submit:active {
+  background-color: rgb(79, 70, 229);
+  transition: all 0.2s;
+}
+
+/* ============================================ // CONTACT FORM */
+
 /* ============================================ Responsive */
 
 @media (max-width: 1024px) {
@@ -844,108 +956,3 @@ footer {
 }
 
 /* ============================================ // Responsive */
-/* ============================================ OUR TEAM */
-
-/* CSS fariz*/
-.contents {
-  /* height: 500px; */
-  /* display: flex;
-  flex-flow: column; */
-}
-
-#our-team {
-  padding: 72px 0;
-  margin: 0 72px;
-}
-
-.section-title {
-  width: 225px;
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-#our-team .contents-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 12px auto;
-}
-
-#our-team .contents-item {
-  width: 250px;
-  margin: 10px;
-}
-
-#our-team .contents-item .img-container {
-  width: 150px;
-  margin: 0 auto;
-}
-
-#our-team .contents-item h3 {
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-#our-team .contents-item p {
-  font-size: 15px;
-  margin-top: 5px;
-  text-align: center;
-}
-
-#our-team .responsive {
-  width: 100%;
-  height: 150px;
-  border-radius: 100%;
-}
-
-/* ============================================ // OUR TEAM */
-/* ============================================ CONTACT FORM */
-
-#contact-form {
-  padding: 72px 0;
-  margin: 0 72px;
-}
-
-#contact-form .contact-container {
-  display: flex;
-  flex-flow: column;
-  margin: 0 auto;
-  width: 500px;
-}
-
-#contact-form .contact-container label {
-  display: block;
-}
-
-#contact-form .contact-container input,
-#contact-form .contact-container textarea {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-  font-size: 18px;
-  border: 1px solid #dee7ec;
-}
-
-.contact-form-submit {
-  background-color: rgb(79, 70, 229);
-  color: rgb(238, 242, 255);
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.contact-form-submit:hover {
-  background-color: rgb(99, 102, 241);
-  transition: all 0.2s;
-}
-
-.contact-form-submit:active {
-  background-color: rgb(79, 70, 229);
-  transition: all 0.2s;
-}
-
-/* ============================================ // CONTACT FORM */
