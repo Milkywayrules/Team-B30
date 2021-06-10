@@ -241,6 +241,7 @@ html {
 }
 /* btn home */
 #slider .bttn-wrapper {
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -255,12 +256,13 @@ html {
 }
 
 #slider .explore {
-  background-color: #444;
+  background-color: rgb(79, 70, 229);
 }
 
 #slider .bttn:hover {
-  background-color: #000;
+  background-color: rgb(99, 102, 241);
   opacity: 0.8;
+  transition: all .2s;
 }
 
 /* ============================================ ABOUT */
