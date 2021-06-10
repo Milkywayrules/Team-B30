@@ -315,17 +315,21 @@ html {
 /* Header */
 .h-wrapper {
   width: 100%;
-  height: auto;
+  height: 80px;
   margin: auto;
+  padding: 0 32px;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../img/bg.png");
   height: 80vh;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center center;
-  position: relative;
+  background-position: center center; */
+  top: 0;
+  z-index: 99999;
+  position: sticky;
+  background-color: #171717;
 }
 .h-nav-area {
   float: right;
@@ -348,15 +352,18 @@ header {
   color: #333;
 }
 .h-logo {
+  padding: 16px;
   float: left;
+  width: auto;
+  height: 100%;
 }
 .h-logo img {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: -20px 0;
 }
 
-.h-welcome-text {
+/* .h-welcome-text {
   position: absolute;
   width: 600px;
   height: 300px;
@@ -382,7 +389,7 @@ header {
 .h-welcome-text a:hover {
   background: #fff;
   color: #333;
-}
+} */
 
 /* About */
 .h-about-section {
