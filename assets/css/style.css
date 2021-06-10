@@ -643,6 +643,14 @@ footer {
   margin-bottom: 20px;
 }
 
+.footer-distributed .footer-company-about a {
+  color: #92999f;
+}
+
+.footer-distributed .footer-company-about a:hover {
+  color: white;
+}
+
 .footer-distributed .footer-icons {
   margin-top: 25px;
 }
