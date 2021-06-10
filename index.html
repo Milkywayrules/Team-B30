@@ -123,16 +123,13 @@
 							<img class="pict" src="assets/img/logo/logo.png">
 						</div>
 						<div class="content-items">
-							<div class="heading">
-								<h2>About Us</h2>
-							</div>
-							<hr>
-							<p>B-30 is a group in training held by Digital Talent Scholarship 2021 in collaboration with Progate.
-								With the theme of "HTML, CSS & JavaScript" training, which is conducted online.
-								This group is in the same class, namely class B. They come from various regions,
-								gathered together for the same purpose. It is hoped that after participating in this training,
-								the skills possessed will be better.
-							</p>
+						<h3 class="section-title">About Us</h3>
+						<p>B-30 is a group in training held by Digital Talent Scholarship 2021 in collaboration with Progate.
+							With the theme of "HTML, CSS & JavaScript" training, which is conducted online.
+							This group is in the same class, namely class B. They come from various regions,
+							gathered together for the same purpose. It is hoped that after participating in this training,
+							the skills possessed will be better.
+						</p>
 						</div>
 					</div>
 				</div>
@@ -199,12 +196,14 @@
 
 				<h3 class="section-title">Contact Us</h3>
 
-				<label for="email">Email*</label>
-				<input id="email">
-				<label for="pesan">Pesan*</label>
-				<textarea id="pesan"></textarea>
-				<label><i>* Bidang Wajib diisi</i></label>
-				<input class="contact-submit" type="submit" value="kirim">
+					<form method="GET" class="contact-container">
+						<label for="email">Email*</label>
+						<input type="email" id="email" placeholder="Masukkan email">
+						<label for="pesan">Pesan*</label>
+						<textarea id="pesan" placeholder="Tulis pesan anda"></textarea>
+						<label><i>* Bidang Wajib diisi</i></label>
+						<input class="contact-form-submit" type="submit" value="Kirim Pesan">
+					</form>
 
 			</div>
 		</section>
