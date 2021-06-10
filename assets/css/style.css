@@ -795,10 +795,13 @@ footer {
 }
 
 .section-title {
+  width: 20%;
   border-bottom: 2px solid #dee7ec;
   font-size: 28px;
   padding-bottom: 15px;
+  margin: 0 auto;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #our-team .contents-container {
@@ -808,12 +811,19 @@ footer {
 }
 
 #our-team .contents-item {
-  width: 200px;
+  width: 250px;
+  margin: 10px;
+}
+
+#our-team .contents-item .img-container {
+  width: 150px;
+  margin: 0 auto;
 }
 
 #our-team .contents-item h3 {
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 30px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -825,13 +835,17 @@ footer {
 
 #our-team .responsive {
   width: 100%;
-  height: 200px;
+  height: 150px;
   border-radius: 100%;
 }
 
 #contact-form {
   padding: 72px 0;
   margin: 0 72px;
+}
+
+#contact-form label {
+  display: block;
 }
 
 #contact-form input,
