@@ -225,22 +225,21 @@ html {
 }
 
 #slider .banner h1 {
-  margin: 20px auto;
+  margin: 0 auto;
   font-size: 50px;
   color: #fff;
+  text-align: center;
+}
+#slider .banner p {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
 }
 /* btn home */
-#slider .bttn-wrapper-1 {
-  margin: 0 40px;
-}
-#slider .bttn-wrapper-2 {
-  margin: 0 100px;
-}
-#slider .bttn-wrapper-3 {
-  margin: 0 25px;
-}
-#slider .bttn-wrapper-4 {
-  margin: 0 90px;
+#slider .bttn-wrapper {
+  text-align: center;
 }
 
 #slider .bttn {
