@@ -1,3 +1,1 @@
 Bismillahirrahmaanirrahiim
-
-Bisa yok bisa
